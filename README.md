@@ -109,6 +109,7 @@ Identifiant
 ```
 Dans TrueNAS :
 
+```
 Idendifiants
 Certificats
 
@@ -138,8 +139,12 @@ Dans le champs Autorité de cerification, cliquer sur Ajouter
     Key Usage COnfig : Laisser tel quel
     Suivant
     Enregistrer
+```
 
 Dans le champs certifiats, cliquer sur Ajouter
+
+```
+ 
     Nom : truenas-cert
     Type : certificat interne
     Profil : HTTPS RSA Certificate
@@ -163,8 +168,8 @@ Dans le champs certifiats, cliquer sur Ajouter
     Sur un client windows :
         Une fois créer, cliquer sur le fichier. crt et k'installer (Attention: ordinateur local)
     Sur un client linux : Aller dans le navigateur, parametre, vie privée et sécurité, dans la zone certificats, cliquer sur afficher les certificats et cliquer sur importer. Ensuite important le fichier .crt
-
-
+```
+```
 Aller Dans Système
 Paramètres généraux
 Cliquer sur Paramètres dans la zone UI
