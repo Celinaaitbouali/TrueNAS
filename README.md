@@ -109,10 +109,11 @@ Identifiant
 ```
 Dans TrueNAS :
 
-```
 Idendifiants
 Certificats
 
+```
+```
 Dans le champs Autorité de cerification, cliquer sur Ajouter
     Nom :  CA-INT-bts
     Type : AC Interne
@@ -140,11 +141,8 @@ Dans le champs Autorité de cerification, cliquer sur Ajouter
     Suivant
     Enregistrer
 ```
-
-Dans le champs certifiats, cliquer sur Ajouter
-
 ```
- 
+Dans le champs certifiats, cliquer sur Ajouter
     Nom : truenas-cert
     Type : certificat interne
     Profil : HTTPS RSA Certificate
@@ -163,7 +161,8 @@ Dans le champs certifiats, cliquer sur Ajouter
         truenas1.bts.lan
     Suivant x2
     Enregistrer
-
+```
+```
     Télécharger le certficat d'AUTORITE créé
     Sur un client windows :
         Une fois créer, cliquer sur le fichier. crt et k'installer (Attention: ordinateur local)
