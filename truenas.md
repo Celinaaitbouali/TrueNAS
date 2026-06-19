@@ -542,5 +542,9 @@ gunzip zabbix.sql.gz
 
 # Probleme rencontrer :
 
-1. L'horloge, dysynchronisation avec l'AD, on a augmenter la plage horaire afin de ne plus : a mettre sur truenas  
+Une différence d'heure a été constatée entre le serveur TrueNAS et l'Active Directory, ce qui provoquait des erreurs lors de l'utilisation de l'authentification multifacteur (MFA).
+
+*Solution apportée* : augmentation de la plage de tolérance horaire afin de permettre l'authentification malgré un léger décalage entre les deux systèmes.
+
+*Résultat* : l'authentification MFA fonctionne correctement.  
 ![](IM3.png)
